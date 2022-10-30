@@ -48,4 +48,5 @@
         <p>All Site Content TM and &copy; 2020 DC Entertainment, unless otherwese <a href="#">noted here</a>. All
             rights reserved. <a href="#">Cookies Settings</a></p>
     </div>
+    <img id="logoFooterBg" src="{{ asset('images/dc-logo-bg.png') }}" alt="Logo DC">
 </div>

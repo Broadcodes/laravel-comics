@@ -1,6 +1,8 @@
 footer {
     .areaLinksTop {
         padding: 25px 0;
+        position: relative;
+        overflow: hidden;
 
         .links {
             width: 45%;
@@ -50,6 +52,13 @@ footer {
                     color: #0282f9;
                 }
             }
+        }
+
+        #logoFooterBg{
+            position: absolute;
+            top: -15%;
+            right: 13%;
+            transform: scale(1.05);
         }
     }
 
