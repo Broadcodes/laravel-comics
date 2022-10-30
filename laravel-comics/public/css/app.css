@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15%;
+}
+
+.bg-colorBlue {
+  background-color: #0282f9;
+}
+
+header nav .areaTopNav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 3px 0;
+}
+
+header nav .areaTopNav h5 {
+  margin: 0 20px;
+  font-size: 0.7rem;
+  color: #fff;
+}
+
+header nav .areaTopNav h5 span {
+  font-size: 0.5rem;
+  vertical-align: top;
+}
+
+header nav .areaTopNav h5:nth-child(2) {
+  cursor: pointer;
+}
+
+header nav .areaMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav .areaMenu .img {
+  width: 80px;
+  height: 80px;
+}
+
+header nav .areaMenu .img img {
+  width: 100%;
+  height: 100%;
+}
+
+header nav .areaMenu .menu ul {
+  list-style-type: none;
+  display: flex;
+}
+
+header nav .areaMenu .menu ul .active {
+  height: 115px;
+  border-bottom: 5px solid #0282f9;
+}
+
+header nav .areaMenu .menu ul .active a {
+  color: #0282f9 !important;
+}
+
+header nav .areaMenu .menu ul li {
+  height: 110px;
+  margin: 0 15px;
+  display: flex;
+  align-items: center;
+}
+
+header nav .areaMenu .menu ul li a {
+  text-decoration: none;
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+header nav .areaMenu .menu ul li a span {
+  font-size: 0.6rem;
+  padding: 5px;
+  vertical-align: 30%;
+  color: #0282f9;
+}
+
