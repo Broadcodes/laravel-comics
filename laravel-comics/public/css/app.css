@@ -119,3 +119,57 @@ header .jumbo img {
      object-position: top;
 }
 
+footer .areaLinksTop {
+  padding: 25px 0;
+}
+
+footer .areaLinksTop .links {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer .areaLinksTop .links .column {
+  width: 33.3333333333%;
+}
+
+footer .areaLinksTop .links .column h2 {
+  color: #fff;
+  font-size: 1.3rem;
+  margin: 20px 0;
+}
+
+footer .areaLinksTop .links .column ul {
+  list-style-type: none;
+}
+
+footer .areaLinksTop .links .column ul li {
+  margin: 4px 0;
+}
+
+footer .areaLinksTop .links .column ul li a {
+  text-decoration: none;
+  color: rgb(126, 126, 126);
+  font-size: 0.9rem;
+}
+
+footer .areaLinksTop .links .column ul li a:hover {
+  text-decoration: underline;
+}
+
+footer .areaLinksTop .areaCookies {
+  width: 50%;
+}
+
+footer .areaLinksTop .areaCookies p {
+  color: rgb(126, 126, 126);
+  font-size: 0.9rem;
+  margin: 15px 0;
+}
+
+footer .areaLinksTop .areaCookies p a {
+  text-decoration: none;
+  color: #0282f9;
+}
+

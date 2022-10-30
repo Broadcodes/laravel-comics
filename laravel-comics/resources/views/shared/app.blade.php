@@ -20,7 +20,14 @@
 
 <body>
     <header>
-        @include('shared.header')
+        {{-- Area relativa alla barra menu -> FILE: nav.blade.php <-> SCSS: header.scss --}}
+        <nav>
+            @include('shared.nav')
+        </nav>
+        {{-- Area relativa alla jumbotron -> FILE: jumbo.blade.php <-> SCSS: header.scss --}}
+        <div class="jumbo">
+            @include('shared.jumbo')
+        </div>
     </header>
 
     <main>
@@ -28,7 +35,15 @@
     </main>
 
     <footer>
-        @include('shared.footer')
+        {{-- Area relativa all'area Footer superiore -> FILE: footerTop.blade.php <-> SCSS: footer.scss --}}
+        <div class="areaLinksTop"
+            style="background-image: url('images/footer-bg.jpg'); width: 100%; background-size: cover; background-repeat: no-repeat;">
+            @include('shared.footerTop')
+        </div>
+        {{-- Area relativa all'area Footer inferiore -> FILE: footerBottom.blade.php <-> SCSS: footer.scss --}}
+        <div class="areaLinksBottom">
+            @include('shared.footerBottom')
+        </div>
     </footer>
 </body>
 

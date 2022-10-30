@@ -1,0 +1,57 @@
+footer {
+    .areaLinksTop {
+        padding: 25px 0;
+
+        .links {
+            width: 45%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .column {
+                width: calc(100% / 3);
+
+                h2 {
+                    color: #fff;
+                    font-size: 1.3rem;
+                    margin: 20px 0;
+                }
+
+                ul {
+                    list-style-type: none;
+
+                    li {
+                        margin: 4px 0;
+
+                        a {
+                            text-decoration: none;
+                            color: rgb(126, 126, 126);
+                            font-size: 0.9rem;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .areaCookies {
+            width: 50%;
+
+            p {
+                color: rgb(126, 126, 126);
+                font-size: 0.9rem;
+                margin: 15px 0;
+
+                a {
+                    text-decoration: none;
+                    color: #0282f9;
+                }
+            }
+        }
+    }
+
+    .areaLinksBottom {}
+}
