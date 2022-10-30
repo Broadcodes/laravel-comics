@@ -173,3 +173,42 @@ footer .areaLinksTop .areaCookies p a {
   color: #0282f9;
 }
 
+footer .areaLinksBottom {
+  background-color: #303030;
+}
+
+footer .areaLinksBottom .footerButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .areaLinksBottom .footerButton .areaButton input {
+  padding: 10px 15px;
+  background: none;
+  color: #fff;
+  border: 3px solid #0282f9;
+  cursor: pointer;
+}
+
+footer .areaLinksBottom .footerButton .areaSocial {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+
+footer .areaLinksBottom .footerButton .areaSocial h2 {
+  color: #0282f9;
+  font-size: 1.1rem;
+  margin: 0 10px;
+}
+
+footer .areaLinksBottom .footerButton .areaSocial ul {
+  list-style-type: none;
+  display: flex;
+}
+
+footer .areaLinksBottom .footerButton .areaSocial ul li {
+  margin: 8px;
+}
+

@@ -1,7 +1,7 @@
 <div class="container bg-colorBlue">
     <div class="areaTopNav">
         <h5>DC POWER<span>SM</span> VISA&reg;</h5>
-        <h5>ADDITIONAL DC SITES&#9660;</h5>
+        <h5>ADDITIONAL DC SITES &#9660;</h5>
     </div>
 </div>
 <div class="container">

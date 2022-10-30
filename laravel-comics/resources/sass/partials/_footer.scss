@@ -53,5 +53,42 @@ footer {
         }
     }
 
-    .areaLinksBottom {}
+    .areaLinksBottom {
+        background-color: #303030;
+
+        .footerButton{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .areaButton input{
+                padding: 10px 15px;
+                background: none;
+                color: #fff;
+                border: 3px solid #0282f9;
+                cursor: pointer;
+            }
+
+            .areaSocial{
+                display: flex;
+                align-items: center;
+                padding: 20px 0;
+
+                h2{
+                    color: #0282f9;
+                    font-size: 1.1rem;
+                    margin: 0 10px;
+                }
+
+                ul{
+                    list-style-type: none;
+                    display: flex;
+
+                    li{
+                        margin: 8px;
+                    }
+                }
+            }
+        }
+    }
 }
