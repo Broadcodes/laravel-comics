@@ -24,7 +24,8 @@
             </ul>
         </div>
         <div class="search">
-
+            <input type="text" name="search" id="inputSearch" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
         </div>
     </div>
 

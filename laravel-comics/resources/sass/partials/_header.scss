@@ -29,11 +29,9 @@ header {
 
             .img {
                 width: 80px;
-                height: 80px;
 
                 img {
                     width: 100%;
-                    height: 100%
                 }
             }
 
@@ -76,6 +74,22 @@ header {
                             color: #0282f9;
                         }
                     }
+                }
+            }
+
+            .search{
+                display: flex;
+                border-bottom: 3px solid #0282f9;
+                margin-left: 30px;
+
+                #inputSearch{
+                    width: 100px;
+                    border: none;
+                    text-align: end;
+                    padding-right: 5px;
+                    padding-bottom: 3px;
+                    outline: none;
+                    font-weight: 600;
                 }
             }
         }
