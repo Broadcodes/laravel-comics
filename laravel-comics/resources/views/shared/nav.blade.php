@@ -7,7 +7,7 @@
 <div class="container">
     <div class="areaMenu">
         <div class="img">
-            <img src="{{ asset('images/dc-logo.png') }}" alt="Logo DC">
+            <a href="#"><img src="{{ asset('images/dc-logo.png') }}" alt="Logo DC"></a>
         </div>
         <div class="menu">
             <ul>

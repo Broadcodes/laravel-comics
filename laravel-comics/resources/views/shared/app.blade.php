@@ -24,10 +24,6 @@
         <nav>
             @include('shared.nav')
         </nav>
-        {{-- Area relativa alla jumbotron -> FILE: jumbo.blade.php <-> SCSS: header.scss --}}
-        <div class="jumbo">
-            @include('shared.jumbo')
-        </div>
     </header>
 
     <main>

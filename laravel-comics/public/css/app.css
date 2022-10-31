@@ -111,11 +111,11 @@ header nav .areaMenu .search #inputSearch {
   font-weight: 600;
 }
 
-header .jumbo {
+main .jumbo {
   height: 350px;
 }
 
-header .jumbo img {
+main .jumbo img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -124,12 +124,12 @@ header .jumbo img {
      object-position: top;
 }
 
-main .areaHomeTop {
+main .areaComicsTop {
   padding: 40px 0px 20px;
   background-color: #303030;
 }
 
-main .areaHomeTop .cards {
+main .areaComicsTop .cards {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -137,7 +137,7 @@ main .areaHomeTop .cards {
   position: relative;
 }
 
-main .areaHomeTop .cards > h2 {
+main .areaComicsTop .cards > h2 {
   position: absolute;
   top: -65px;
   left: -10px;
@@ -146,7 +146,7 @@ main .areaHomeTop .cards > h2 {
   padding: 10px 25px;
 }
 
-main .areaHomeTop .cards input {
+main .areaComicsTop .cards input {
   background-color: #0282f9;
   border: none;
   color: #fff;
@@ -155,13 +155,19 @@ main .areaHomeTop .cards input {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+  transition: transform 0.5s;
+  cursor: pointer;
 }
 
-main .areaHomeTop .cards .card {
+main .areaComicsTop .cards input:hover {
+  transform: translateX(-50%) scale(1.1);
+}
+
+main .areaComicsTop .cards .card {
   width: 16.6666666667%;
 }
 
-main .areaHomeTop .cards .card .imageCard {
+main .areaComicsTop .cards .card .imageCard {
   width: 180px;
   height: 180px;
   padding: 8px;
@@ -173,11 +179,11 @@ main .areaHomeTop .cards .card .imageCard {
   cursor: pointer;
 }
 
-main .areaHomeTop .cards .card .imageCard:hover {
+main .areaComicsTop .cards .card .imageCard:hover {
   transform: scale(1.1);
 }
 
-main .areaHomeTop .cards .card h3 {
+main .areaComicsTop .cards .card h3 {
   color: #fff;
   padding: 0 8px;
   text-transform: uppercase;
@@ -186,24 +192,24 @@ main .areaHomeTop .cards .card h3 {
   font-weight: 500;
 }
 
-main .areaHomeBottom ul {
+main .areaComicsBottom ul {
   padding: 40px 5%;
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
 }
 
-main .areaHomeBottom ul li {
+main .areaComicsBottom ul li {
   display: flex;
   align-items: center;
   width: 100%;
 }
 
-main .areaHomeBottom ul li img {
+main .areaComicsBottom ul li img {
   max-height: 55px;
 }
 
-main .areaHomeBottom ul li h4 {
+main .areaComicsBottom ul li h4 {
   color: #fff;
   margin: 0 10px;
   font-size: 0.9rem;
