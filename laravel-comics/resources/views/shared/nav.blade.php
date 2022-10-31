@@ -7,20 +7,40 @@
 <div class="container">
     <div class="areaMenu">
         <div class="img">
-            <a href="#"><img src="{{ asset('images/dc-logo.png') }}" alt="Logo DC"></a>
+            <a href="{{ route('home') }}"><img src="{{ asset('images/dc-logo.png') }}" alt="Logo DC"></a>
         </div>
         <div class="menu">
             <ul>
-                <li><a href="#">CHARACTERS</a></li>
-                <li class="active"><a href="#">COMICS</a></li>
-                <li><a href="#">MOVIES</a></li>
-                <li><a href="#">TV</a></li>
-                <li><a href="#">GAMES</a></li>
-                <li><a href="#">COLLECTIBLES</a></li>
-                <li><a href="#">VIDEOS</a></li>
-                <li><a href="#">FANS</a></li>
-                <li><a href="#">NEWS</a></li>
-                <li><a href="#">SHOP<span>&#9660;</span></a></li>
+                <li class="{{ request()->is('characters') ? 'active' : '' }}">
+                    <a href="{{ route('characters') }}">CHARACTERS</a>
+                </li>
+                <li class="{{ request()->is('comics') ? 'active' : '' }}">
+                    <a href="{{ route('comics') }}">COMICS</a>
+                </li>
+                <li class="{{ request()->is('movies') ? 'active' : '' }}">
+                    <a href="{{ route('movies') }}">MOVIES</a>
+                </li>
+                <li class="{{ request()->is('tv') ? 'active' : '' }}">
+                    <a href="{{ route('tv') }}">TV</a>
+                </li>
+                <li class="{{ request()->is('games') ? 'active' : '' }}">
+                    <a href="{{ route('games') }}">GAMES</a>
+                </li>
+                <li class="{{ request()->is('collectibles') ? 'active' : '' }}">
+                    <a href="{{ route('collectibles') }}">COLLECTIBLES</a>
+                </li>
+                <li class="{{ request()->is('videos') ? 'active' : '' }}">
+                    <a href="{{ route('videos') }}">VIDEOS</a>
+                </li>
+                <li class="{{ request()->is('fans') ? 'active' : '' }}">
+                    <a href="{{ route('fans') }}">FANS</a>
+                </li>
+                <li class="{{ request()->is('news') ? 'active' : '' }}">
+                    <a href="{{ route('news') }}">NEWS</a>
+                </li>
+                <li class="{{ request()->is('shop') ? 'active' : '' }}">
+                    <a href="{{ route('shop') }}">SHOP<span>&#9660;</span></a>
+                </li>
             </ul>
         </div>
         <div class="search">
