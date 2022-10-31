@@ -1,3 +1,147 @@
-main h1{
-    padding: 30px 0 300px;
+main {
+
+    h1 {
+        padding: 30px 0 300px;
+    }
+
+    .home {
+        .areaImage {
+            width: 100%;
+            height: 400px;
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+
+            .descriptionImage,
+            .descriptionImageBottom {
+                color: #fff;
+                padding: 40px 20px;
+
+                h2 {
+                    font-size: 1.8rem;
+                    padding: 10px 0;
+                }
+
+                p {
+                    line-height: 1.5rem;
+                }
+            }
+
+            .descriptionImage{
+                position: absolute;
+                width: 35%;
+                bottom: 10%;
+                left: 5%;
+                background-color: rgba(0, 0, 0, 0.6);
+                box-shadow: 0 0 15px rgb(255, 0, 208);
+            }
+
+            .descriptionImageBottom {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 55%;
+
+                h2{
+                    font-size: 3rem !important;
+                    padding: 30px 0 10px;
+                }
+
+                input{
+                    color: #fff;
+                    width: 160px;
+                    border: 1px solid #fff;
+                    background: none;
+                    border-radius: 25px;
+                    padding: 15px 0;
+                    margin-top: 15px;
+                    font-weight: 600;
+                    transition: background-color .5s, border .5s;
+                    cursor: pointer;
+
+                    &:hover{
+                        border: 1px solid #0282f9;
+                        background-color: #0282f9;
+                    }
+                }
+            }
+        }
+
+        .title{
+            text-align: center;
+            font-size: 2.3rem;
+            color: rgb(255, 0, 208);
+            padding: 10px 0;
+            border-bottom: 5px solid rgb(149, 0, 157);
+        }
+
+        .cards {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin: 10px 0;
+
+            .card {
+                width: calc(100% / 4 - 30px);
+                min-height: 450px;
+                margin: 15px;
+                box-shadow: 5px 5px 10px rgb(201, 201, 201);
+                text-align: center;
+                transition: transform 0.5s;
+                cursor: pointer;
+
+                &:hover {
+                    transform: scale(1.05);
+                }
+
+                .imageCard {
+                    width: 100%;
+                    object-fit: cover;
+                    min-height: 250px;
+                    clip-path: polygon(0px 0px, 100% 0px, 100% 88%, 0px 99%);
+                }
+
+                h2{
+                    padding: 15px;
+                }
+
+                h3{
+                    color: rgb(126, 126, 126);
+                    font-weight: 400;
+                    font-size: 0.9rem;
+                    padding: 10px;
+                }
+            }
+        }
+
+        .cardsRelease {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin: 10px 0;
+
+            .card {
+                width: calc(100% / 4 - 30px);
+                min-height: 450px;
+                margin: 15px;
+                text-align: center;
+                cursor: pointer;
+
+                .imageCard {
+                    width: 70%;
+                }
+
+                h2{
+                    padding: 15px;
+                }
+            }
+        }
+
+        .jumboBottom{
+            background: rgb(48,0,72);
+            background: linear-gradient(54deg, rgba(48,0,72,1) 0%, rgb(94, 0, 201) 100%);
+            height: 400px;
+            margin-bottom: 20px;
+        }
+    }
 }

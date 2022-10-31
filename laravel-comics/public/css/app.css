@@ -14,6 +14,12 @@ body {
   padding: 0 13%;
 }
 
+.containerLarge {
+  display: flex;
+  flex-direction: column;
+  padding: 0 8%;
+}
+
 .bg-colorBlue {
   background-color: #0282f9;
 }
@@ -113,6 +119,149 @@ header nav .areaMenu .search #inputSearch {
 
 main h1 {
   padding: 30px 0 300px;
+}
+
+main .home .areaImage {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+main .home .areaImage .descriptionImage,
+main .home .areaImage .descriptionImageBottom {
+  color: #fff;
+  padding: 40px 20px;
+}
+
+main .home .areaImage .descriptionImage h2,
+main .home .areaImage .descriptionImageBottom h2 {
+  font-size: 1.8rem;
+  padding: 10px 0;
+}
+
+main .home .areaImage .descriptionImage p,
+main .home .areaImage .descriptionImageBottom p {
+  line-height: 1.5rem;
+}
+
+main .home .areaImage .descriptionImage {
+  position: absolute;
+  width: 35%;
+  bottom: 10%;
+  left: 5%;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 15px rgb(255, 0, 208);
+}
+
+main .home .areaImage .descriptionImageBottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 55%;
+}
+
+main .home .areaImage .descriptionImageBottom h2 {
+  font-size: 3rem !important;
+  padding: 30px 0 10px;
+}
+
+main .home .areaImage .descriptionImageBottom input {
+  color: #fff;
+  width: 160px;
+  border: 1px solid #fff;
+  background: none;
+  border-radius: 25px;
+  padding: 15px 0;
+  margin-top: 15px;
+  font-weight: 600;
+  transition: background-color 0.5s, border 0.5s;
+  cursor: pointer;
+}
+
+main .home .areaImage .descriptionImageBottom input:hover {
+  border: 1px solid #0282f9;
+  background-color: #0282f9;
+}
+
+main .home .title {
+  text-align: center;
+  font-size: 2.3rem;
+  color: rgb(255, 0, 208);
+  padding: 10px 0;
+  border-bottom: 5px solid rgb(149, 0, 157);
+}
+
+main .home .cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 10px 0;
+}
+
+main .home .cards .card {
+  width: calc(25% - 30px);
+  min-height: 450px;
+  margin: 15px;
+  box-shadow: 5px 5px 10px rgb(201, 201, 201);
+  text-align: center;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+main .home .cards .card:hover {
+  transform: scale(1.05);
+}
+
+main .home .cards .card .imageCard {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  min-height: 250px;
+  -webkit-clip-path: polygon(0px 0px, 100% 0px, 100% 88%, 0px 99%);
+          clip-path: polygon(0px 0px, 100% 0px, 100% 88%, 0px 99%);
+}
+
+main .home .cards .card h2 {
+  padding: 15px;
+}
+
+main .home .cards .card h3 {
+  color: rgb(126, 126, 126);
+  font-weight: 400;
+  font-size: 0.9rem;
+  padding: 10px;
+}
+
+main .home .cardsRelease {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 10px 0;
+}
+
+main .home .cardsRelease .card {
+  width: calc(25% - 30px);
+  min-height: 450px;
+  margin: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+main .home .cardsRelease .card .imageCard {
+  width: 70%;
+}
+
+main .home .cardsRelease .card h2 {
+  padding: 15px;
+}
+
+main .home .jumboBottom {
+  background: rgb(48, 0, 72);
+  background: linear-gradient(54deg, rgb(48, 0, 72) 0%, rgb(94, 0, 201) 100%);
+  height: 400px;
+  margin-bottom: 20px;
 }
 
 main .jumbo {

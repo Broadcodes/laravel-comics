@@ -14,47 +14,51 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('page.home-page.home');
-}) -> name('home');
+    $data = [
+        'collection' => config('data.home.collection'),
+        'releases' => config('data.home.releases'),
+        'movies' => config('data.home.movies')
+    ];
+    return view('page.home-page.home', $data);
+})->name('home');
 
 Route::get('/characters', function () {
     return view('page.characters-page.characters');
-}) -> name('characters');
+})->name('characters');
 
 Route::get('/comics', function () {
     $data = ['seriesComics' => config('data.comics')];
     return view('page.comics-page.comics', $data);
-}) -> name('comics');
+})->name('comics');
 
 Route::get('/movies', function () {
     return view('page.movies-page.movies');
-}) -> name('movies');
+})->name('movies');
 
 Route::get('/tv', function () {
     return view('page.tv-page.tv');
-}) -> name('tv');
+})->name('tv');
 
 Route::get('/games', function () {
     return view('page.games-page.games');
-}) -> name('games');
+})->name('games');
 
 Route::get('/collectibles', function () {
     return view('page.collectibles-page.collectibles');
-}) -> name('collectibles');
+})->name('collectibles');
 
 Route::get('/videos', function () {
     return view('page.videos-page.videos');
-}) -> name('videos');
+})->name('videos');
 
 Route::get('/fans', function () {
     return view('page.fans-page.fans');
-}) -> name('fans');
+})->name('fans');
 
 Route::get('/news', function () {
     return view('page.news-page.news');
-}) -> name('news');
+})->name('news');
 
 Route::get('/shop', function () {
     return view('page.shop-page.shop');
-}) -> name('shop');
-
+})->name('shop');
