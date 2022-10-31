@@ -1,10 +1,65 @@
 main {
     .areaHomeTop {
+        padding: 40px 0px 20px;
         background-color: #303030;
+
+        .cards{
+            display: flex;
+            justify-content: space-between;
+            align-items:baseline;
+            flex-wrap: wrap;
+            position: relative;
+
+            &>h2{
+                position: absolute;
+                top: -65px;
+                left: -10px;
+                background-color: #0282f9;
+                color: #fff;
+                padding: 10px 25px;
+            }
+
+            input{
+                background-color: #0282f9;
+                border: none;
+                color: #fff;
+                padding: 10px 55px;
+                font-weight: 600;
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            .card{
+                width: calc(100% / 6);
+
+                .imageCard{
+                    width: 180px;
+                    height: 180px;
+                    padding: 8px;
+                    object-fit: cover;
+                    object-position: top;
+                    transition: transform 0.5s;
+                    cursor: pointer;
+
+                    &:hover {
+                      transform: scale(1.1);
+                    }
+                }
+
+                h3{
+                    color: #fff;
+                    padding: 0 8px;
+                    text-transform: uppercase;
+                    font-size: 0.9rem;
+                    margin: 10px 0;
+                    font-weight: 500;
+                }
+            }
+        }
     }
 
     .areaHomeBottom {
-
 
         ul {
             padding: 40px 5%;
