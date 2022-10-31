@@ -1,7 +1,7 @@
 @extends('shared.app')
 
 @section('mainAreaComponent')
-    CHARACTERS PAGE
+    <div class="container">
+        <h1>PAGINA CHARACTERS</h1>
+    </div>
 @endsection
-
-

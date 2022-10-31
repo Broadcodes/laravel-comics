@@ -1,7 +1,7 @@
 @extends('shared.app')
 
 @section('mainAreaComponent')
-COLLECTIBLES PAGE
+    <div class="container">
+        <h1>PAGINA COLLECTIBLES</h1>
+    </div>
 @endsection
-
-

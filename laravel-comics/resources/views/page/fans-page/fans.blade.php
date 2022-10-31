@@ -1,7 +1,9 @@
 @extends('shared.app')
 
 @section('mainAreaComponent')
-    FANS PAGE
+    <div class="container">
+        <h1>PAGINA FANS</h1>
+    </div>
 @endsection
 
 

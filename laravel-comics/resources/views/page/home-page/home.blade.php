@@ -1,5 +1,7 @@
 @extends('shared.app')
 
 @section('mainAreaComponent')
-    HOME PAGE
+    <div class="container">
+        <h1>PAGINA HOME</h1>
+    </div>
 @endsection

@@ -1,7 +1,7 @@
 @extends('shared.app')
 
 @section('mainAreaComponent')
-    NEWS PAGE
+    <div class="container">
+        <h1>PAGINA NEWS</h1>
+    </div>
 @endsection
-
-

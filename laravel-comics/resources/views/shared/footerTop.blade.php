@@ -3,13 +3,13 @@
         <div class="column">
             <h2>DC COMICS</h2>
             <ul>
-                <li><a href="#">Characters</a></li>
-                <li><a href="#">Comics</a></li>
-                <li><a href="#">Movies</a></li>
-                <li><a href="#">TV</a></li>
-                <li><a href="#">Games</a></li>
-                <li><a href="#">Videos</a></li>
-                <li><a href="#">News</a></li>
+                <li><a href="{{ route('characters') }}">Characters</a></li>
+                <li><a href="{{ route('comics') }}">Comics</a></li>
+                <li><a href="{{ route('movies') }}">Movies</a></li>
+                <li><a href="{{ route('tv') }}">TV</a></li>
+                <li><a href="{{ route('games') }}">Games</a></li>
+                <li><a href="{{ route('videos') }}">Videos</a></li>
+                <li><a href="{{ route('news') }}">News</a></li>
             </ul>
             <h2>SHOP</h2>
             <ul>

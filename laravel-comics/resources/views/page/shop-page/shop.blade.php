@@ -1,7 +1,7 @@
 @extends('shared.app')
 
 @section('mainAreaComponent')
-    SHOP PAGE
+    <div class="container">
+        <h1>PAGINA SHOP</h1>
+    </div>
 @endsection
-
-

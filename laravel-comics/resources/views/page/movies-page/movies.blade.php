@@ -1,7 +1,7 @@
 @extends('shared.app')
 
 @section('mainAreaComponent')
-    MOVIES PAGE
+    <div class="container">
+        <h1>PAGINA MOVIES</h1>
+    </div>
 @endsection
-
-
